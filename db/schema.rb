@@ -19,11 +19,11 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_12_224957) do
 
   create_table "foods", force: :cascade do |t|
     t.string "name", limit: 50
-    t.integer "baskets_id", null: false
+    t.integer "basket_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["baskets_id"], name: "index_foods_on_baskets_id"
+    t.index ["basket_id"], name: "index_foods_on_basket_id"
   end
 
-  add_foreign_key "foods", "baskets", column: "baskets_id"
+  add_foreign_key "foods", "baskets"
 end
