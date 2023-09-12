@@ -6,11 +6,16 @@ Você deve disponibilizar os métodos para adicionar e remover um item da cesta 
 
 ### Regras
 
-- Deve ser possível adicionar um alimentos mais de uma vez na cesta
-- Ao remover um item da cesta deve ser decrementado a quantidade disponível
-- Deve ser disponibilizado um jeito de visualizar todos os alimentos da cesta
- - Exibir o nome do alimento e a sua quantidade.
-- Não é possível remover um item que não existe na cesta e deve ser informado uma mensagem ao usuário.
+✓ Deve ser possível adicionar um alimentos mais de uma vez na cesta
+
+✓ Ao remover um item da cesta deve ser decrementado a quantidade disponível
+
+✓ Deve ser disponibilizado um jeito de visualizar todos os alimentos da cesta
+
+✓ Exibir o nome do alimento e a sua quantidade
+
+✓ Não é possível remover um item que não existe na cesta e deve ser informado uma mensagem ao usuário.
+
 
 ### Importante
 
