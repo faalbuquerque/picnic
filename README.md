@@ -1,24 +1,17 @@
-# README
+# A cesta de piquenique
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Seu programa deve armazenar o itens da cesta de piquenique que você irá fazer no feriado de 7 de setembro.
 
-Things you may want to cover:
+Você deve disponibilizar os métodos para adicionar e remover um item da cesta de piquenique.
 
-* Ruby version
+### Regras
 
-* System dependencies
+- Deve ser possível adicionar um alimentos mais de uma vez na cesta
+- Ao remover um item da cesta deve ser decrementado a quantidade disponível
+- Deve ser disponibilizado um jeito de visualizar todos os alimentos da cesta
+ - Exibir o nome do alimento e a sua quantidade.
+- Não é possível remover um item que não existe na cesta e deve ser informado uma mensagem ao usuário.
 
-* Configuration
+### Importante
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Desenvolver os testes unitários
